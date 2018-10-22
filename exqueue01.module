@@ -1,0 +1,24 @@
+<?php
+
+/**
+ * @file
+ * Contains exqueue01.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function exqueue01_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the exqueue01 module.
+    case 'help.page.exqueue01':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Examples using the Queue API') . '</p>';
+      return $output;
+
+    default:
+  }
+}

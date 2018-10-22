@@ -1,0 +1,16 @@
+
+exqueue01.getData:
+  path: '/exqueue01/getData'
+  defaults:
+    _controller: '\Drupal\exqueue01\Controller\ExQueueController::getData'
+    _title: 'Get RSS data'
+  requirements:
+    _permission: 'import content from rss'
+
+exqueue01.deleteQueue:
+  path: '/exqueue01/deleteQueue'
+  defaults:
+    _controller: '\Drupal\exqueue01\Controller\ExQueueController::deleteTheQueue'
+    _title: 'Delete the queue'
+  requirements:
+    _permission: 'import content from rss'

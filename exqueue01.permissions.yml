@@ -1,0 +1,4 @@
+import content from rss:
+  title: 'Import content from rss'
+  description: 'User can import contents from a RSS source'
+  restrict access: TRUE

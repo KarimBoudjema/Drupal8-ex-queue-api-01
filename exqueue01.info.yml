@@ -1,0 +1,5 @@
+name: 'Example Queue 01'
+type: module
+description: 'Examples using the Queue API'
+core: 8.x
+package: 'Custom'
