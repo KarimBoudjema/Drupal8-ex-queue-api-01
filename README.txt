@@ -17,8 +17,27 @@ corresponding route in exqueue01.routing.yml
 
 2. A QueueWorker plugin src/Plugin/QueueWorker/ExQueue01.php
 
+
+Module Tree
+-----------
+
+|-- exqueue01.info.yml
+|-- exqueue01.module
+|-- exqueue01.permissions.yml
+|-- exqueue01.routing.yml
+|-- README.txt
+`-- src
+    |-- Controller
+    |   `-- ExQueueController.php
+    `-- Plugin
+        `-- QueueWorker
+            `-- ExQueue01.php
+
+
+The Controller
+--------------
 The controller manages two routes.
-----------------------------------
+
 1) \Drupal\exqueue01\Controller\ExQueueController::getData
 The getData() method allows to load external data in a a RSS file and
 creates an array of object from it.
