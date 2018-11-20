@@ -4,6 +4,9 @@ EXQUEU01
 This is a simple example of the Queue API with a controller and
 a QueueWorker plugin in Drupal 8.
 
+Read the blog post here:
+http://karimboudjema.com/en/drupal/20180807/create-queue-controller-drupal8
+
 In this module we generate a queue with a controller, importing the
 title and the description tags form the Drupal Planet RSS file.
 
